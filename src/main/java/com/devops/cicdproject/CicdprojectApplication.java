@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CicdprojectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("CI CD started......");
+		System.out.println("CI CD started......pipeline");
 		SpringApplication.run(CicdprojectApplication.class, args);
 		
 	}

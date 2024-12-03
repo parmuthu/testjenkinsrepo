@@ -48,11 +48,11 @@ pipeline {
             steps{
                
             // withCredentials([string(credentialsId: 'dockerid', variable: 'dockerhubpwd')]) {
-               //bat 'docker login -u parmv -p kavikannan@2002'
+               bat 'docker login -u parmv -p kavikannan@2002'
            // }
             // withCredentials([string(credentialsId: 'dockerhubid', variable: 'dockerpwd')]) {
     // some block
-    bat 'docker login -u parmv -p ${dockerpwd}'
+    //bat 'docker login -u parmv -p ${dockerpwd}'
     
 //}      
 

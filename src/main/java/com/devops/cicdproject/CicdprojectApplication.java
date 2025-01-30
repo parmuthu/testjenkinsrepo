@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CicdprojectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Update cicd pipeline");
+		System.out.println("Update cicd pipeline project");
 		SpringApplication.run(CicdprojectApplication.class, args);
 		
 	}

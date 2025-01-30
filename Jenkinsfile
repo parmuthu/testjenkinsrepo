@@ -13,7 +13,7 @@ pipeline {
        steps
 	
 	    {
-	    checkout changelog: false, poll: false, scm: scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '552894fe-a066-4c30-8dda-413876e0f0af', url: 'https://github.com/parmuthu/testjenkinsrepo.git']])
+	    checkout changelog: false, poll: false, scm: scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '552894fe-a066-4c30-8dda-413876e0f0af', url: 'https://parmuthu@github.com/parmuthu/testjenkinsrepo.git']])
 	    }
        }
 		stage('Build project'){
